@@ -2,11 +2,13 @@
 
 # num = int(input("enter number of fibonacci series"))
 # a = 0
-# b=1
+# b = 1
 # for i in range(num):
 #     print(a)
-#     a, b = b, a + b
-    
+    # c = a + b
+#     a = b
+#     b = c
+       
 # Check if a given number is a prime number using a  for loop
 # num2 = int(input("enter any number"))
 # count = 0
