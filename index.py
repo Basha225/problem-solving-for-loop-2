@@ -19,6 +19,8 @@
 # else:
 #     print(num2,"is not a prime")
 
+
+
 # Write a program to calculate the factorial of a number using a  while  loop.
 
 # num1 = int(input("enter any number"))
@@ -29,13 +31,15 @@
 #     num1-=1
 # print(factorial)
 
+
+
 # Print all numbers from 1 to 100 that are divisible by 3 and 5 using a  for  loop. 
 # for i in range (1,101):
 #     if (i%3==0) and (i%5==0):
 #         print(i)
 
 
-# mplement a basic login system where the user has three 
+# Implement a basic login system where the user has three 
 # attempts to enter the correct password using a loop
 
 # user = int(input("enter any user id"))
@@ -55,13 +59,45 @@
 #                 print("Your attempts ended sorry")
 
 
+
+
+# Implement a menu-driven program where the user can 
+# choose to: 
+# 1.  Find the square of a number. 
+# 2.  Find the cube of a number. 
+# 3.  Exit. 
+
+
+
+while True:
+    print("Select Below one")
+    print("Enter 1 for find square of a number")
+    print("Enter 2 for find cube of a number")
+    print("Enter 3 for Exit..")
+    choice = int(input("Enter Anyone Choice From Menu "))
+    if (choice<=3) and (choice>0):
+        if choice == 1:
+            num = int(input("Enter a Number to find it's Square"))
+            print("Square of the Numbere is :",num**2)
+            break
+        elif choice ==2:
+            num = int(input("Enter a Number to find it's Cube"))
+            print("Square of the Numbere is :",num**3)
+            break
+            
+        elif choice ==3:
+            print("Your entered Exit....")
+            break
+    else:
+        print("Invalid Choice...")
+        break
+
 # Write a program that keeps asking the user to enter numbers 
 # until they enter a negative number. Use a  while  loop. 
-negative = 0
-while negative==0:
-    user = int(input("Please enter negative numbere only"))
-    if user <0:
-        print("You are entered negative number Thank You")
-        break
+# negative = 0
+# while negative==0:
+#     user = int(input("Please enter negative numbere only"))
+#     if user <0:
+#         print("You are entered negative number Thank You")
+#         break
         
-    
